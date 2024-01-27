@@ -1,6 +1,4 @@
-import './App.css'
-
-export function App() {
+export function TwitterFollowCard() {
     return (
         <article className='tw-followCard'>
             <header className='tw-followCard-header'>
