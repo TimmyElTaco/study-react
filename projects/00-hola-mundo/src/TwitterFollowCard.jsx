@@ -1,6 +1,9 @@
+/* eslint-disable react/prop-types */
+
+
 import { useState } from 'react';
 
-export function TwitterFollowCard({ children, username, initialIsFollowing }) {
+export function TwitterFollowCard({ username, initialIsFollowing, children }) {
     const [ isFollowing, setIsFollowing ] = useState(initialIsFollowing);
 
 
