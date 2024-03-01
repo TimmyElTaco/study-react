@@ -1,6 +1,5 @@
 import './App.css'
 import { TwitterFollowCard } from './TwitterFollowCard.jsx'
-import { useState } from 'react'
 
 export function App() {
 
